@@ -83,12 +83,10 @@ public class HttpReferrerStreamWriter {
 
         // These are the possible referrers to use when generating pairs
         List<String> referrers = new ArrayList<>();
-        referrers.add("http://www.amazon.com");
-        referrers.add("http://www.google.com");
+        referrers.add("http://www.charusat.ac.in");
+        referrers.add("http://www.charusat.ac.in/it");
         referrers.add("http://www.yahoo.com");
-        referrers.add("http://www.bing.com");
-        referrers.add("http://www.stackoverflow.com");
-        referrers.add("http://www.reddit.com");
+        
 
         HttpReferrerPairFactory pairFactory = new HttpReferrerPairFactory(resources, referrers);
 
